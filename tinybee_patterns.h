@@ -149,4 +149,3 @@ int mode_yalda() {
     FillLEDsFromPaletteColors(g_current_palette, g_palette_offset, 9);
     return 0;
 }
-

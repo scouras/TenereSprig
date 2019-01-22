@@ -45,14 +45,12 @@ int test_mimsy_registration() {
   int brt = 255;  
   
   for (int i = 0; i < 6; i++) {
-    leds[MIMSY_REGISTRATIONS[i]-1] = CHSV(hue, sat, brt);
-    leds[MIMSY_REGISTRATIONS[i]-0] = CHSV(hue, sat, brt);
+    uint8_t l = MIMSY_REGISTRATIONS[i];
+    if (l >= NUM_LEDS) { continue; }
+    leds[l-1] = CHSV(hue, sat, brt);
+    leds[l-0] = CHSV(hue, sat, brt);
     hue += dhue;
   }
 
    return 0;
 }
-
-
-
-

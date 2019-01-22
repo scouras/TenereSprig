@@ -164,4 +164,3 @@ int Fire2012WithPalette()
 
    return 0;
 }
-

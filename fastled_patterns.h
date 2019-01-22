@@ -71,6 +71,3 @@ int sinelonN() {
     hue++;
     return 0;
 } 
-
-
-

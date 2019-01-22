@@ -76,4 +76,3 @@ typedef Timer<micros> MicrosTimer;
 typedef Timer<millis> MillisTimer;
 
 #endif
-

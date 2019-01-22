@@ -65,4 +65,3 @@ int number_of_sparkles() {
   }
   return result;
 }
-
